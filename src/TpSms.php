@@ -52,6 +52,7 @@ class TpSms
     public function scene(string $scene)
     {
         $this->scene = $scene;
+        return $this;
     }
 
     /**
